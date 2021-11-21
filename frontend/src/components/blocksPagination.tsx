@@ -18,6 +18,7 @@ const BlocksPagination = (props: { pageCount: number }) => {
 
   return (
     <Pagination
+      title="pagination-component"
       count={props.pageCount}
       variant="outlined"
       shape="rounded"
