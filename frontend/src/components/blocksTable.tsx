@@ -5,6 +5,7 @@ import {
   TableHead,
   TableBody,
   Button,
+  Chip,
 } from "@mui/material";
 import { useState } from "react";
 import BlockModal from "./blockModal";
@@ -35,7 +36,13 @@ const BlocksTable = (props: { blocks: Array<any> }) => {
         {props.blocks.map((block, indx) => (
           <TableRow key={indx}>
             {Object.values(block).map((blockProperty, indx1) => (
-              <TableCell key={indx1}>{blockProperty as string}</TableCell>
+              <TableCell key={indx1}>
+                {typeof blockProperty === "number" ? (
+                  <Chip label={blockProperty} />
+                ) : (
+                  (blockProperty as string)
+                )}
+              </TableCell>
             ))}
             <TableCell>
               <Button

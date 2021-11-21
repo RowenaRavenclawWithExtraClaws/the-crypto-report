@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getBlocks, unslugify } from "../utility/utility";
 import { queryStrings } from "../utility/constants";
 import FetchIndicator from "./fetchIndicator";
-import { Table, Modal, TableRow, TableCell } from "@mui/material";
+import { Table, Modal, TableRow, TableCell, Chip } from "@mui/material";
 
 const style = {
   position: "absolute" as "absolute",
@@ -51,7 +51,13 @@ const BlockModal = (props: {
           {Object.keys(block).map((key, indx) => (
             <TableRow key={indx}>
               <TableCell>{unslugify(key)}</TableCell>
-              <TableCell>{block[key]}</TableCell>
+              <TableCell>
+                {typeof block[key] === "number" ? (
+                  <Chip label={block[key]} />
+                ) : (
+                  block[key]
+                )}
+              </TableCell>
             </TableRow>
           ))}
         </Table>
