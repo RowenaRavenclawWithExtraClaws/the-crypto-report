@@ -8,8 +8,4 @@ The Crypto Report is a web application that enables users to browse the latest c
 - Rub `docker-compose up`
 - Visit `localhost:3000` to see this beauty
 
-## Test
-
-Run `npm test` to see testing results.
-
 ### For more information, see [frontend doc](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/frontend/README.md) and [backend doc](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/backend/README.md)

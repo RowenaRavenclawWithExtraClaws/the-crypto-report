@@ -9,6 +9,10 @@ This is the frontend web application for The Crypto Report project. you can star
 - Run `npm start`
 - Visit `localhost:3000`
 
+## Test
+
+Run `npm test` to see testing results.
+
 ## Technologies used
 
 - React.js `^17.0.2`
