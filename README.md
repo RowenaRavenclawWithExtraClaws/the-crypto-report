@@ -12,4 +12,4 @@ The Crypto Report is a web application that enables users to browse the latest c
 
 Run `npm test` to see testing results.
 
-### See [frontend readme](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/frontend/README.md) and [backend readme](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/bakcend/README.md) for more information
+### See [frontend readme](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/frontend/README.md) and [backend readme](https://github.com/NuriCareers/Abdelrahman-Abdelsalam-coding-challenge/blob/main/backend/README.md) for more information
