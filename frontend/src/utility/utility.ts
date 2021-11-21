@@ -19,9 +19,6 @@ export const getBlocks = async (queryStr: string) => {
   }
 };
 
-export const msToDays = (time: number) =>
-  Math.ceil(time / (864 * Math.pow(10, 5)));
-
 // convert API data keys to more human-readable format (prev_block => Prev block)
 export const unslugify = (word: string) => {
   let newWord = word[0].toUpperCase();
